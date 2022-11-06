@@ -1,0 +1,41 @@
+.layout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	word-wrap: normal;
+	margin: 40px 30px;
+}
+
+.homeimg {
+	width: 100%;
+	border-radius: 20px;
+	filter: brightness(50%);
+}
+
+.title-ocean {
+	display: flex;
+	flex-wrap: wrap;
+	size: 48px;
+	font-weight: 500;
+	position: absolute;
+	color: #ffffff;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.layout {
+		margin-top: 10px;
+	}
+
+	.homeimg {
+		height: 111px;
+		border-radius: 10px;
+	}
+
+	.title-ocean {
+		font-size: 24px;
+		margin-right: 10px;
+	}
+}

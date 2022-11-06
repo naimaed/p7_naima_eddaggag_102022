@@ -1,0 +1,9 @@
+body {
+	width: 100%;
+}
+li {
+	list-style-type: none;
+}
+code {
+	font-family: Montserrat, sans-serif;
+}
