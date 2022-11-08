@@ -15,7 +15,13 @@ export default function Carousel(props) {
 						else setCurrent(pictures.length - 1);
 					}}
 				>
-					<i className="fa-solid fa-chevron-left"> </i>
+					{!current ? (
+						<span>
+							<i className="fa-solid fa-chevron-left"> </i>
+						</span>
+					) : (
+						<span></span>
+					)}
 				</button>
 			)}
 

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import "./collapsible.css";
-
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
+import "./collapsible.css";
 
 export default function Collapsible(props) {
 	const [isOpen, setIsOpen] = useState(false);

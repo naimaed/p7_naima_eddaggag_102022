@@ -12,7 +12,6 @@ export default function Logement() {
 	const logements = useContext(LogementsContext);
 
 	const logement = logements.find((logement) => logement.id === id);
-	console.log(logement.rating);
 	if (logement === undefined) throw new Error("logement non trouver");
 
 	return (
